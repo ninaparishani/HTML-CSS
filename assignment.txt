@@ -1,3 +1,7 @@
-create a page using two fonts chosen from google fonts. Use one for the header and another for the body. Create 5 paragraphs (lorem ipsum if you want). Create a centered div with a black border that will hold the text. Use 40px of padding around the content container.
-make the width 800px and the minimum height 400px.
-Add a resizing background image.
+Create a centered (horizontally and vertically) div with a black 1 pixel border. make it 500px wide and 500 px tall.
+
+Create 4 divs that will be relatively positioned (stacked vertically) in the box. the first one is red, the second orange, the third yellow the last green. they are all 100% width but only 125px tall.
+
+Create 4 other divs that are absolutely positioned and will go in each corner of the main div, each of these will be 75 px wide and tall. color them black.
+
+
