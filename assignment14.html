@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+<head>
+    <title></title>
+    <style>
+ul{
+    padding: 0px;
+
+}
+ul li{
+    list-style: none;
+    margin: 10px;
+    padding: 5px;
+
+}
+input[type=text], input[type=password], select{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+input[type=text]:focus, input[type=password]:focus, select:focus{
+    background-color: yellow;
+}
+input[type=submit], input[type=reset]{
+    border: 3px solid black;
+    background-color: rgb(183, 176, 176);
+    padding: 10px;
+    border-radius: 10px;
+}
+input[type=submit]:hover, input[type=reset]:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+        </style>
+</head>
+<body>
+   <form method="post" id="form1" action="assignment14.html">
+   <ul>
+    <li><label for="name">Name:</label> 
+        <input type="text" name="name" id="name" value="" /> </li>
+    <li><label for="username">Username:</label>  
+        <input type="text" name="username" id="username" value="" /> </li>
+    <li><label for="password">Password:</label>  
+        <input type="password" name="password" id="password" value=""/> </li>
+    <li><label for="password2">Confirm password: </label>  
+        <input type="password" name="password2" id="password2" value=""/></li>
+    <li><label for="address">Address 1:</label>
+         <input type="text" name="address" id="address" value="" /></li>
+    <li> <label for="address2">Address 2:</label>
+        <input type="text" name="address2" id="address2" value="" /></li>
+    <li> <label for="emailaddress">Email Address: </label>
+        <input type="text" name="emailaddress" id="emailaddress" value="" /></li>
+    <li>
+        <select>
+            <option value="-1">Select a province</option>
+            <option value="ON">Ontario</option>
+            <option value="BC">British Columbia</option>
+            <option value="NB">New Brunswick</option>
+            <option value="NS">Nova Scotia</option>
+        </select>
+    </li>
+    <li> 
+        I agree to the terms and conditions: <br/>
+        <input type="checkbox" checked="checked" />
+    </li>
+    <li><input type="submit" name="btnsubmit" id="btnsubmit"  value="Submit button" /></li>
+    <li><input type="reset" name="btncancel" id="btncancel" value="Reset button" /></li>
+   </ul>
+</form>
+</body>
+</html>

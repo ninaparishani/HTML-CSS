@@ -1,6 +1,15 @@
-create a table with the class name "statstable".
-create an alternate style table with at least 5 columns and at least 6 rows.
-These columns can use fake data, but make sure the data is real not garbage.
-ie - use numbers and names but not "jfeiojfwejfwel" text.
+Create an HTML registration form with the following controls:
 
-Place the table in a container div. The container div class name is "main". It will be centered. Make it 700 pixels wide and a minimum of 400 pixels tall, with a 20 pixel padding and 1 pixel black border. Add 30 pixels to the top margin. display the table in the main content area with the heading "First Quarter Results". Add a paragraph of lorem ipsum text before and after the table. Stylize the table header to be different than the rows and use alternate style settings for the alternate rows. 
+Name - textbox
+Username - textbox
+Password - password textbox
+confirm password - password textbox
+Address 1 - textbox
+Address 2 - textbox
+Email Address - textbox
+Province - select (drop down with provinces)
+I agree to the Terms and Conditions - checkbox
+Submit button
+Reset Button
+
+Do not worry about functionality at this point we will come back to HTML forms later and use them in PHP and javascript.
