@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+<head>
+    <title></title>
+    <!-- last priority goes to the stylesheet if it comes before style tags -->
+    <link rel="stylesheet" href="separatecss" />
+
+    <!-- second priority goes to style tags in the document (or a style sheet that appears below the style tags) -->
+    <style>
+        .class1 {
+            background-color:green;
+        }
+    </style>
+
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">Kristina Elen</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
+<mso:Order msdt:dt="string">575100.000000000</mso:Order>
+<mso:ComplianceAssetId msdt:dt="string"></mso:ComplianceAssetId>
+<mso:_ColorTag msdt:dt="string"></mso:_ColorTag>
+<mso:_ExtendedDescription msdt:dt="string"></mso:_ExtendedDescription>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">Kristina Elen</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
+<mso:TriggerFlowInfo msdt:dt="string"></mso:TriggerFlowInfo>
+<mso:ContentTypeId msdt:dt="string">0x010100CF89EC8F5AEE504FBB953C82D69C8537</mso:ContentTypeId>
+<mso:_SourceUrl msdt:dt="string"></mso:_SourceUrl>
+<mso:_SharedFileIndex msdt:dt="string"></mso:_SharedFileIndex>
+<mso:_ColorHex msdt:dt="string"></mso:_ColorHex>
+<mso:_Emoji msdt:dt="string"></mso:_Emoji>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+<body>
+    <!-- 
+        first priority will always go to the tag attribute "style" so you can override any settings here, 
+        if you can't find a way to override them any other way (working with a content management system that generates styles for example)
+        but you will want to try to minimize your code that is directly in the html as this makes things harder to manage.   
+    -->
+    <div class="class1" style="background-color:darkcyan;">
+        Class 1 Div
+    </div>
+
+    <div class="class2">
+        Class 2 Div
+    </div>
+</body>
+</html>

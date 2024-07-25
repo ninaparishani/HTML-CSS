@@ -1,0 +1,25 @@
+﻿* {
+    /*
+        The star represents the default selector for all elements. 
+        Any style you apply here is applied to all elements.
+    */
+
+    margin:0; /*This will remove the margin border around the page*/
+}
+
+.class1 {
+    width:100px;
+    height:100px;
+    color:white;
+    background-color:blue;
+    margin-bottom:10px;
+    position:relative;
+}
+
+.class2 {
+    position:relative;
+    width:250px;
+    height:250px;
+    padding:20px;
+    border:solid 1px black;
+}
