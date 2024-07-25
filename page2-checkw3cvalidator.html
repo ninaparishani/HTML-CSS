@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+<head>
+<title></title>
+<style>
+/*
+This is a CSS comment, it can go on multiple lines.
+In these style tags we can assign style to our document elements.
+Just follow along with the CSS for now, 
+we will come back to definitions on it later.
+For now we are adding style to enhance our basic documents, 
+but the style information will not be on the test.
+*/
+
+/*
+	the # sign allows us to select an element by id
+	in this case we want to select "main" 
+	so we can add style to the container
+*/
+
+#main{
+	width:500px;   /*Setting some width in pixels*/
+	padding:10px;  /*Setting some padding in pixels (space on the inside of the container)*/
+	margin-left:auto; /*The next two settings center our div*/
+	margin-right:auto;
+	border:solid 1px black; /*Setting a solid black 1 pixel wide border around the container*/
+	/*
+		when adding a new container to a page, it can be good to add a border to make sure
+		that the container is visible and is place and size you want it to be.
+	*/
+}
+</style>
+
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">Kristina Elen</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
+<mso:Order msdt:dt="string">575600.000000000</mso:Order>
+<mso:ComplianceAssetId msdt:dt="string"></mso:ComplianceAssetId>
+<mso:_ColorTag msdt:dt="string"></mso:_ColorTag>
+<mso:_ExtendedDescription msdt:dt="string"></mso:_ExtendedDescription>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">Kristina Elen</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
+<mso:TriggerFlowInfo msdt:dt="string"></mso:TriggerFlowInfo>
+<mso:ContentTypeId msdt:dt="string">0x010100CF89EC8F5AEE504FBB953C82D69C8537</mso:ContentTypeId>
+<mso:_SourceUrl msdt:dt="string"></mso:_SourceUrl>
+<mso:_SharedFileIndex msdt:dt="string"></mso:_SharedFileIndex>
+<mso:_ColorHex msdt:dt="string"></mso:_ColorHex>
+<mso:_Emoji msdt:dt="string"></mso:_Emoji>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+<body>
+<!-- 
+	The div tag (short for division) is a container in HTML 
+	We will use the div tag as a container for our paragraph.
+	In this case, the div tag with id="main" is the parent element,
+	and the paragraph is a child element.
+-->
+<div id="main">
+	<h2>Lorem Ipsum Dolor Sit Amet</h2>
+	<h3>Jump to section:</h3>
+	<p>
+		<a href="#p1">Paragraph 1</a>
+	</p>
+	<p>
+		<a href="#p2">Paragraph 2</a>
+	</p>
+	<p>
+		<a href="#p3">Paragraph 3</a>
+	</p>
+	<p>
+		<a href="#p4">Paragraph 4</a>
+	</p>
+	<p style="color:blue;" id="p1"> <!-- We can also put style as an attribute, but this can get messy. 
+							So we want to keep that to a minimum when we get into larger scale projects -->
+		Lorem ipsum dolor sit amet, 
+		consectetur adipiscing elit. 
+		Pellentesque adipiscing sem 
+		eget erat porta eu sollicitudin 
+		nisl egestas. Curabitur quis velit 
+		a quam consectetur sodales. 
+		<!-- 
+			1. We can put images as inline elements right with text. But we must float them to make
+			text properly wrap around it, otherwise the line height will be the same as the picture. 
+			
+			2. Without dimensions (width and height) the image will automatically be as big as the actual picture 
+			dimensions
+			
+			3. We can add a style attribute or style definition to set width and height.
+			
+			4. If we do not want the image to stretch we can set the width to a specific size, and the 
+			height to auto, this will allow the image to stay the same shape.
+			
+			5. Setting the margin around the image will give it some space so the text doesn't hug it.
+		-->
+			<img src="img/dog.png" alt="Dog" style="width:100px; height:auto; float:left; margin:10px;" />
+		Morbi ullamcorper imperdiet rhoncus. 
+		Vivamus eget sapien ipsum. Nam lectus justo, 
+		blandit a lobortis non, aliquet vel sapien. 
+		Nunc lectus nunc, ornare sit amet auctor sit amet, 
+		pulvinar eget turpis. Nam scelerisque ipsum in nunc vulputate ultricies commodo ac arcu.
+		<br/>
+		<a href="#main">back to top</a>
+	</p>
+	<p style="color:green;" id="p2"> 
+		<img src="img/flower.jpg" alt="Flower" style="width:100px; height:auto; float:right; margin:10px;" />
+		Lorem ipsum dolor sit amet, 
+		consectetur adipiscing elit. 
+		Pellentesque adipiscing sem 
+		eget erat porta eu sollicitudin 
+		nisl egestas. Curabitur quis velit 
+		a quam consectetur sodales. 
+		Morbi ullamcorper imperdiet rhoncus. 
+		Vivamus eget sapien ipsum. Nam lectus justo, 
+		blandit a lobortis non, aliquet vel sapien. 
+		Nunc lectus nunc, ornare sit amet auctor sit amet, 
+		pulvinar eget turpis. Nam scelerisque ipsum in nunc vulputate ultricies commodo ac arcu.
+		<br/>
+		<a href="#main">back to top</a>
+	</p>
+	<p style="color:red;" id="p3"> 
+		Lorem ipsum dolor sit amet, 
+		consectetur adipiscing elit. 
+		Pellentesque adipiscing sem 
+		eget erat porta eu sollicitudin 
+		nisl egestas. Curabitur quis velit 
+		a quam consectetur sodales. 
+		Morbi ullamcorper imperdiet rhoncus. 
+		Vivamus eget sapien ipsum. Nam lectus justo, 
+		blandit a lobortis non, aliquet vel sapien. 
+		Nunc lectus nunc, ornare sit amet auctor sit amet, 
+		pulvinar eget turpis. Nam scelerisque ipsum in nunc vulputate ultricies commodo ac arcu.
+		<br/>
+		<a href="#main">back to top</a>
+	</p>
+	<p style="color:brown;" id="p4"> 
+		Lorem ipsum dolor sit amet, 
+		consectetur adipiscing elit. 
+		Pellentesque adipiscing sem 
+		eget erat porta eu sollicitudin 
+		nisl egestas. Curabitur quis velit 
+		a quam consectetur sodales. 
+		Morbi ullamcorper imperdiet rhoncus. 
+		Vivamus eget sapien ipsum. Nam lectus justo, 
+		blandit a lobortis non, aliquet vel sapien. 
+		Nunc lectus nunc, ornare sit amet auctor sit amet, 
+		pulvinar eget turpis. Nam scelerisque ipsum in nunc vulputate ultricies commodo ac arcu.
+		<br/>
+		<a href="#main">back to top</a>
+	</p>
+	
+</div>
+
+</body>
+</html>
