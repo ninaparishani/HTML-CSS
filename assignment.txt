@@ -1,7 +1,6 @@
-Create a centered (horizontally and vertically) div with a black 1 pixel border. make it 500px wide and 500 px tall.
+create a table with the class name "statstable".
+create an alternate style table with at least 5 columns and at least 6 rows.
+These columns can use fake data, but make sure the data is real not garbage.
+ie - use numbers and names but not "jfeiojfwejfwel" text.
 
-Create 4 divs that will be relatively positioned (stacked vertically) in the box. the first one is red, the second orange, the third yellow the last green. they are all 100% width but only 125px tall.
-
-Create 4 other divs that are absolutely positioned and will go in each corner of the main div, each of these will be 75 px wide and tall. color them black.
-
-
+Place the table in a container div. The container div class name is "main". It will be centered. Make it 700 pixels wide and a minimum of 400 pixels tall, with a 20 pixel padding and 1 pixel black border. Add 30 pixels to the top margin. display the table in the main content area with the heading "First Quarter Results". Add a paragraph of lorem ipsum text before and after the table. Stylize the table header to be different than the rows and use alternate style settings for the alternate rows. 
