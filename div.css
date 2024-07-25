@@ -1,0 +1,19 @@
+#main{
+    min-height:400px;
+    width:700px;
+    border:1px solid black;
+    padding:40px;
+    position:relative:
+
+}
+
+.innerdiv{
+    height:200px;
+    width:200px;
+    display: inline-block;
+    margin: 10px;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+}

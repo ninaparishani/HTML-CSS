@@ -1,0 +1,22 @@
+Create an HTML document with the following elements and style rules.
+
+A div with the id = "main"
+In css give this div a minimum height of 400px and a width of 700px
+Set the border to solid, 1 pixel black.
+set the padding to 40 pixels.
+set the position to relative.
+
+Create three divs with the class = "innerdiv"
+give this class a width and height of 200px
+set the display to inline-block
+set the margin to 10px
+set the background color to green
+set font color to white
+set padding to 10px
+set box-sizing to border-box
+
+The three boxes should fit into the main box without going onto the next line without any modifications.
+
+submit planning materials.
+
+
